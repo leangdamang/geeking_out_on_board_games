@@ -10,7 +10,7 @@ In addition, 95% of the top quartile of rated games were produced from 2000 onwa
 
 I processed the data by converting categorical variables to dummy variables and binning the released year into 5 year intervals for simplicity. In addition, I adjusted the MSRP price for inflation with data pulled in through the Bureau of Labor Statistics. I normalized all of the data and optimized the model through Lasso Regression and cross-validation. 
 
-In the end, I got an R^2 rating of .595 with a MSE of .25 for my regression. It failed at accurately predicting poor ratings for the worst games, overpredicting the poor ratings. 
+In the end, I got an R^2 rating of .595 with a MSE of .25 for my regression. It overpredicted the rating for the worst games, likely due to the lower sample size or dearth of information for poor games vs good games (ex. no price since it's not in circulation). 
 
 I was able to determine that complexity, recency, and retail price were the best determinants of a board game rating. Games with mechanics such as Hand management (games that reward players for playing cards in certain sequences or groups ex. poker), Set Collection (players optimize combinations of items, such as three-of-a-kind that yield higher rewards when turned in together ex. Risk), or Line Drawing (players draw lines to connect or isolate objects ex. Snake or Cranium) are correlated with the best rated games. 
 
