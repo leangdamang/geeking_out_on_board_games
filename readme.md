@@ -2,7 +2,7 @@
 
 In this project, I scraped BoardGameGeeks.com, a prominent UGC board game community, to determine what features make the best board games. To access the data, I used a combination of Selenium to create a webdriver and Scrapy to scrape the data loaded from that webdriver, since most of the data was loaded client-side. 
 
-In all, I scraped around 6k top and bottom rated board games for features such as released year, MSRP price, eBay price, game mechanics, theme, game time, complexity score (1-5 based off of user rating), and overall rating (1-10). 
+In all, I scraped around 12k top and bottom rated board games for features such as released year, MSRP price, eBay price, game mechanics, theme, game time, complexity score (1-5 based off of user rating), and overall rating (1-10). 
 
 I was able to determine that we're in a Renaissance of board games right now. Not only are 2/3 of the board games produced made from 2000s onwards, over 1/3 of games were made in the last 7 years. I hypothesize that there's greater demand for board games than ever before and the barriers to entry are lower due to crowdfunding services like Kickstarter seeding capital investment for production.  
 
